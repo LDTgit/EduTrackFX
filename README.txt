@@ -1,12 +1,7 @@
 =======================================
 PROIECT - APLICATIE TRIVIA
 =======================================
-
-I. INFORMATII STUDENT
-Nume: Jercan (Dumitrescu-Tudor) Laura
-Grupa: 310
----------------------------------------
-II. TEHNOLOGII UTILIZATE
+I. TEHNOLOGII UTILIZATE
 Limbaj: Java
 Interfata Grafica: JavaFX (layout-uri dinamice: VBox, GridPane, ScrollPane)
 Management Proiect: Maven (pentru gestionarea dependintelor)
@@ -14,7 +9,7 @@ Librarii externe:
    - Ikonli (FontAwesome) - pentru iconite vectoriale
    - HttpClient - pentru conexiunea cu servere externe
 ---------------------------------------
-III. MODULE SI ECRANE IMPLEMENTATE (6 SCENE)
+II. MODULE SI ECRANE IMPLEMENTATE (6 SCENE)
 1. Autentificare (Login): Ecran de acces cu securizarea parolei.
                           Verifica credentialele prin compararea hash-urilor BCrypt.
                           Permite crearea de conturi noi cu validarea unicitatii userului.
@@ -24,16 +19,16 @@ III. MODULE SI ECRANE IMPLEMENTATE (6 SCENE)
 5. Statistici (Grafic): Reprezentarea performantei prin PieChart.
 6, Ajutor: Manual de utilizare integrat cu ScrollPane.
 ---------------------------------------
-IV. SURSA DATELOR (API EXTERN)
+III. SURSA DATELOR (API EXTERN)
 Aplicatia utilizeaza API-ul "Open Trivia Database" (https://opentdb.com/).
 Datele sunt preluate prin cereri HTTP de tip GET, procesate din format JSON si curatate de entitati HTML pentru o afisare corecta.
 --------------------------------------
-V. SECURITATE
+IV. SECURITATE
 Parolele sunt securizate folosind algoritmul BCrypt.
 Baza de date locala (users.db) nu stocheaza parole in clar.
 Sistem de validare a input-ului: prevenirea duplicatelor si a campurilor goale.
 --------------------------------------
-VI. INSTRUCTIUNI DE RULARE
+V. INSTRUCTIUNI DE RULARE
 1. Din IDE (IntelliJ): Rulati clasa com.example.edutrackfx.Launcher
 2. Din executabil (JAR):
 Deschideti un terminal in folderul fisierului JAR si rulati comanda:
